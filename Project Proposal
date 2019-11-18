@@ -1,0 +1,29 @@
+Final Project Proposal: 
+Modeling Neural Connection Properties with Random Graph Generation
+
+Background
+
+Neuron connections appear to be random, as shown in class and discussed in ‘Random convergence of olfactory input in the Drosophila mushroom body’ by Caron et al. This paper explains in experiment in which Sophie Caon, Vanessa Ruta, L. F. Abbott and Richard Axel examined the brain center (mushroom body) in the fruit fly. They found that KC neurons in the fly’s brain are used to encode odors as patterns of neural activity, and traced the origin of the inputs that led to the activation of these individual patterns. Importantly, it appears that each KC neuron gets input from a random combination of glomeruli, with no organization, and do not seem to selectively choose which to pay attention to. However, the randomness does not extend to the number of connections formed by the glomeruli. 
+This vein of research is continued in ‘Highly Nonrandom Features of Synaptic Connectivity in Local Cortical Circuits’ by S. Song et al., which explores three-neuron connectivity. They find that some three neuron connectivity patterns are overrepresented, and that these clustered connections tend to be stronger. They hypothesize that the local cortical network (in this study of the rat visual cortex) can be modeled as a skeleton of strong connections in a sea of weaker ones.
+
+Research Question(s): 
+
+What are the strongest properties about neural connections that hold over various animal’s connectomes and different parts of the brain? Is there an interesting way to randomly generate a graph with these properties?
+
+Methods:
+
+    In order to examine how the properties of neural connections found in the two papers discussed hold for other data, I plan to use data from neurodata.io, which has connectome data as graphs with 50-2000 nodes from neural data sets of a cat, fly, macaque, mouse, rat and worm. There are 18 different graphs available. Although the data is limited, I plan to explore the connections within the graphs by choosing some of the larger data sets and examining the three neuron connection patterns discussed in ‘Highly Nonrandom Features of Synaptic Connectivity in Local Cortical Circuits’. Since connection data is the only thing available across all datasets this will be my main focus, but some graphs have different edge and node attributes, so I may also explore the claim about connection strength and non-uniform connectivity between neurons of different types if there is an appropriate set.
+    After examining the properties of these graphs (and possibly reading a few more papers), I will choose several properties that seem strongly suggested, and work with random graph generation algorithms to see what could produce these properties. Currently, my thought is that I will focus on the distribution of both two-way connections and three-neuron connections as ‘a stronger skeleton in a weaker sea’ as the ‘goal’ of my random graph generation, but that may change.  For random graph generation algorithms, I will start with the differences between the target and the algorithms discussed in class, then move on to modifications and other generation algorithms, possibly to sparsification algorithms that may model synapse pruning.
+
+Timeline:
+Project Proposal Approved: Nov 6th
+Datasets explored for basic connectivity patterns: Nov 6th
+Datasets explored for different neurons or any other relevant properties: Nov 13th
+Basic random graph generation algorithms comparison for connectivity: Nov 13th
+‘Important’ graph properties finalized: Nov 20th
+Different graph generation methods explored: Nov 20th
+First draft of project done: Nov 20th
+More complex modeling explored: Nov 27th
+Project finished: Dec 4th
+Project presentation: Dec 4th
+Final Draft of Project: Dec 9th
