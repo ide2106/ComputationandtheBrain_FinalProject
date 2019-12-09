@@ -1,3 +1,4 @@
+242 nodes
 p is 0.07012791056548129
 
 connections by type:

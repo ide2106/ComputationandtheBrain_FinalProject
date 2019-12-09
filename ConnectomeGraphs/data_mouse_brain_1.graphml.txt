@@ -1,3 +1,5 @@
+213 nodes
+
 p is 0.4795376029763487
 
 connections by type:

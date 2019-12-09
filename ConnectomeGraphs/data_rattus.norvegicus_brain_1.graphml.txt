@@ -1,3 +1,4 @@
+503 nodes
 p is 0.10956967359191465
 
 connections by type:
